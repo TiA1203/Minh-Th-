@@ -35,5 +35,14 @@ namespace Caculator2
             double c = a + b;
             textBox3.Text = c.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            double a = double.Parse(textBox1.Text);
+            double b = double.Parse(textBox2.Text);
+            double c = a - b;
+            textBox3.Text = c.ToString();
+        }
     }
 }
